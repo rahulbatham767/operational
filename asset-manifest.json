@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/rahulbatham767/operational/static/js/main.578f62ea.js",
-    "index.html": "/rahulbatham767/operational/index.html",
-    "main.578f62ea.js.map": "/rahulbatham767/operational/static/js/main.578f62ea.js.map"
+    "main.js": "/rahulbatham767/static/js/main.578f62ea.js",
+    "index.html": "/rahulbatham767/index.html",
+    "main.578f62ea.js.map": "/rahulbatham767/static/js/main.578f62ea.js.map"
   },
   "entrypoints": [
     "static/js/main.578f62ea.js"
