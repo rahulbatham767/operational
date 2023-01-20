@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./Compoents/Navbar";
+import Header from "./Compoents/Header";
+import './Compoents/style.css'
+import Charts from "./Compoents/Charts";
+import React from "react";
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="container-fluid">
+        <div className="row my-5 mx-auto">
+          <Header title="Created" subtitle="593" text="to yesterday" dec="9%" />
+          <Header title="Unassigned" subtitle="7" text="to yesterday" dec="30%" />
+          <Header title="Open" subtitle="46" text="to yesterday" dec="13%" />
+          <Header title="Solved" subtitle="526" text="to yesterday" dec="8%" />
+          <Header title="Escalated" subtitle="2" text="to yesterday" dec="0%" id="4" />
+          <Header title="Sydney" subtitle="01:41 AM" text="Tuesday" dec="18 Dec 2018" id="5" />
+        </div>
+      </div>
+
+      <Charts />
+
+    </>
   );
 }
 

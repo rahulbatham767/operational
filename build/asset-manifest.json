@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rahulbatham767/static/css/main.4e388f33.css",
+    "main.js": "/rahulbatham767/static/js/main.d74a6bca.js",
+    "index.html": "/rahulbatham767/index.html",
+    "main.4e388f33.css.map": "/rahulbatham767/static/css/main.4e388f33.css.map",
+    "main.d74a6bca.js.map": "/rahulbatham767/static/js/main.d74a6bca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e388f33.css",
+    "static/js/main.d74a6bca.js"
+  ]
+}
